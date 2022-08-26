@@ -6,21 +6,29 @@ body{
  h1 {
    text-align: center;
  }
-  .caixa1{
+  .amor1{
    position: absolute;
-   width: 200px;
-   height: 200px;
+   width: 75px;
+   height: 75px;
    background: rgb(41, 28, 112);
    right: 0;
    bottom: 0;
   }
-  .caixa2{
+  .troxa{
     position: absolute;
     width: 200px;
     height: 200px;
     background: rgb(177, 104, 165);
     right: 2;
     bottom: 2;
+   }
+   .o1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgb(177, 104, 165);
+    right: 4;
+    bottom: 4;
    }
    .menuPrincipal{
     position: absolute;
@@ -45,36 +53,34 @@ li a{
   display: block;
   color: rgb(245, 184, 197);
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
 }
 li a:hover{
-  background: rgb(170, 30, 30);
-  color:rgb(228, 118, 140);
+  background: rgb(197, 2, 2);
+  color:rgb(238, 73, 106);
 }
-#panda {
-  width: 15%;
-}
-.caixaPanda{
+
+.amor1{
   position: absolute;
-  top: 45px;
-  width: 90%;
-  height: 120%;
-  background: palevioletred;(209, 167, 104 )
+  top: 0px;
+  width: 2%;
+  height: 8px;
+  background: rgb(209, 167, 104);
   left: 0;
-  margin 20px;
-  border-color blue;
-  border-style solid;
-  border-width 20px;
-  padding: 20px;
-  display flex;
-  justify-content: center;
+  margin: 15px;
+  border-color: coral;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px;
+  display: flex;
+  justify-content: end;
 }
-.caixaPanda2{
+.troxa{
   position: absolute;
-  top: 45px;
-  width: 90%;
-  height: 120%;
+  top: 0px;
+  width: 0%;
+  height: 8%;
   background: palevioletred (209, 167, 104 )
   left 0;
   margin:   20px;
@@ -86,6 +92,23 @@ li a:hover{
   justify-content: end;
 
 }
+.o1{
+  position: absolute;
+  top: 0px;
+  width: 0%;
+  height: 12%;
+  background: palevioletred (209, 167, 104 )
+  left 0;
+  margin:   0px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: end;
+
+}
+
 .rodape {
   position: absolute;
   width: 100%;
@@ -93,11 +116,15 @@ li a:hover{
   background: white;
   color: black;
   bottom: 0;
-  display: ;
+  display: 0;
 
 }
 
-
+.conteudo{
+  position: absolute;
+  top: 45px;
+  top: 50px;
+} 
 
 
 
